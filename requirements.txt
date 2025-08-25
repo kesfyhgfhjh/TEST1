@@ -1,0 +1,10 @@
+pyrogram
+TgCrypto
+uvloop
+aiohttp
+requests
+yt-dlp
+python-dotenv
+tqdm
+Pillow
+ffmpeg-python
